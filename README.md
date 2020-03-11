@@ -5,6 +5,7 @@ Using a machine learning toolkit of your choice, create a tool which identifies 
 <h3>Approach</h3>
 Tiny Yolo architecture was used which is as shown below:
 <a href="images/Tinyyolo_architecture.png"></a>
+Weights: <a href="images/Tinyyolo_architecture.jpg">yolo-tiny.h5</a>
 <h2>Results:</h2>
 <h3>Input Image:</h3>
 <a href="images/Tinyyolo_architecture.jpg"></a>
