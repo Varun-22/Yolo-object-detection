@@ -11,3 +11,6 @@ Weights: <a href="https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0
 <img src="https://github.com/Varun-22/caMicroscope-GSoC-2020-code-challenge/blob/master/images/input.jpg">
 <h3>Output Image:</h3>
 <img src="https://github.com/Varun-22/caMicroscope-GSoC-2020-code-challenge/blob/master/images/prediction_output.jpg">
+<h3>Running the code:</h3>
+The ipynb of the code provided was implemented in google colab environment. If you already have the required libraries, run from cell 2.
+Since it was colab, cv2_imshow was used. For running on local system, use cv2.imshow.
