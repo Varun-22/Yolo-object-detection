@@ -12,6 +12,6 @@ Weights: <a href="https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0
 <h3>Output Image:</h3>
 <img src="https://github.com/Varun-22/caMicroscope-GSoC-2020-code-challenge/blob/master/images/prediction_output.jpg">
 <h3>Running the code:</h3>
-The <a href="https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo-tiny.h5">ipynb file</a> of the code provided was implemented in google colab environment. If you already have the required libraries, run from cell 2.
+The <a href="https://github.com/Varun-22/caMicroscope-GSoC-2020-code-challenge/blob/master/Object_detection.ipynb">ipynb file</a> of the code provided was implemented in google colab environment. If you already have the required libraries, run from cell 2.
 Since it was colab, cv2_imshow was used. For running on local system, use cv2.imshow.
-For running on local system, use the <a href="https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo-tiny.h5">py file</a> and make sure that the <a href="https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo-tiny.h5">python file</a>, weights: yolo-tiny.h5, and input image = "input.jpg" are in the same working directory.
+For running on local system, use the <a href="https://github.com/Varun-22/caMicroscope-GSoC-2020-code-challenge/blob/master/Object_detection.py">py file</a> and make sure that the <a href="https://github.com/Varun-22/caMicroscope-GSoC-2020-code-challenge/blob/master/Object_detection.py">python file</a>, weights: yolo-tiny.h5, and input image = "input.jpg" are in the same working directory.
