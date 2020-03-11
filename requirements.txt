@@ -1,2 +1,4 @@
 imageai
 opencv-python
+tensorflow
+keras
