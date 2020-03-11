@@ -1,8 +1,5 @@
-!pip3 install imageai --upgrade
-
 from imageai.Detection import ObjectDetection
 import cv2
-from google.colab.patches import cv2_imshow
 
 """Create instance of Object Detection class"""
 
@@ -27,9 +24,9 @@ detection = det.detectObjectsFromImage(input_image=input_path, output_image_path
 """Result: Input and output image"""
 
 i1 = cv2.imread("input.jpg")
-cv2_imshow(i1)
+cv2.imshow(i1)
 i2 = cv2.imread("prediction_output.jpg")
-cv2_imshow(i2)
+cv2.imshow(i2)
 
 """Total objects detected"""
 
@@ -52,4 +49,4 @@ print("Bottom-right corner: (X2, Y2) = ({}, {})".format(boxpix[2],boxpix[3]))
 """Display requested object"""
 
 selectedobj = cv2.imread("input.jpg")[boxpix[1]:boxpix[3],boxpix[0]:boxpix[2]]
-cv2_imshow(selectedobj)
+cv2.imshow(selectedobj)
